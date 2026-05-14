@@ -1,0 +1,15 @@
+ let div= document.getElementById("conteneur");
+ let paragraph =document.getElementById("t1");
+ let btn=document.getElementById("btn")
+ paragraph.innerText="le text a ete modifie";
+ paragraph.style.backgroundColor="lightblue"
+ paragraph.style.textAlign="center"
+ paragraph.style.padding="10px"
+ btn.addEventListener("click",function(){
+   paragraph.innerText="une click a ete detecte";
+ });
+
+
+
+
+
